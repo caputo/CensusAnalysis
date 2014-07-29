@@ -1,0 +1,110 @@
+html,body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-image: linear-gradient(bottom, rgb(10,10,10) 21%, rgb(71,71,71) 61%, rgb(102,102,100) 81%);
+	background-image: -o-linear-gradient(bottom, rgb(10,10,10) 21%, rgb(71,71,71) 61%, rgb(102,102,100) 81%);
+	background-image: -moz-linear-gradient(bottom, rgb(10,10,10) 21%, rgb(71,71,71) 61%, rgb(102,102,100) 81%);
+	background-image: -webkit-linear-gradient(bottom, rgb(10,10,10) 21%, rgb(71,71,71) 61%, rgb(102,102,100) 81%);
+	background-image: -ms-linear-gradient(bottom, rgb(10,10,10) 21%, rgb(71,71,71) 61%, rgb(102,102,100) 81%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.21, rgb(10,10,10)),
+		color-stop(0.61, rgb(71,71,71)),
+		color-stop(0.81, rgb(102,102,100))
+		);
+	-ms-touch-action: none;
+}
+
+#myModal{
+	overflow: auto;
+}
+
+#loadingDiv{
+	display: inline-block;
+}
+#loadingDiv .progress{
+position: relative;
+float: left;
+width: 80% ;
+border-radius: 4px 0 0 4px;
+}
+
+#loadingDiv button{
+	border-radius: 0 4px 4px 0;
+	width: 20% !important;
+}
+
+#map img {
+	max-width: none;
+}
+
+#navbar i {
+	margin-right: 5px;
+}
+
+.container-fluid{
+	padding-top:40px;
+}
+#divTool{
+	overflow: auto;	
+	padding-top:15px;
+	padding-right: 15px;
+}
+
+@media (max-width: 767px){
+	#divTool{
+		border-bottom-style: ridge;	
+		padding-top:15px;
+		padding-right: 15px;
+	}
+
+}
+@media (max-width: 979px) and (min-width: 768px){
+	#divTool{
+		border-right-style: ridge;
+		padding-top:15px;
+		padding-right: 15px;
+	}	
+}
+@media (min-width: 979px){
+	#divTool{
+		overflow: auto;
+		border-right-style: ridge;
+	}
+}
+
+#divTool div, #divTool select{
+	width:100%;
+}
+#divButtons{
+	display: inline-table;
+}
+#divButtons button{
+	width: 50%;
+}
+
+#listVariables span{
+	width:250px;
+	margin-top:10px;
+}
+#listVariables p{
+	white-space: normal;
+}
+
+#divLayerSelect button{
+	width: 50%
+}
+.container-fluid{
+	padding-right: 0px; 
+	padding-left: 0px; 	 
+	width: 100%;
+	color: white;
+}
+.container-fluid label{
+	font-weight: bold;
+}
